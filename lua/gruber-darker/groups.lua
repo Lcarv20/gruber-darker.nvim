@@ -172,6 +172,10 @@ M.setup = function()
 		-- Telescope
 		TelescopeMatching = { fg = colors.bg, bg = colors.red },
 
+		-- LSP
+		LSPReferenceRead = { bg = colors.bg_3 },
+
+
 		-- telescope.nvim
 		-- TelescopeNormal = { },
 		-- TelescopeSelection = { },
