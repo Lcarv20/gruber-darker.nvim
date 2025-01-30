@@ -23,6 +23,7 @@ M.colors = {
 	niagara_1 = "#565f73",
 	niagara = "#96a6c8",
 	wisteria = "#9e95c7",
+	dark_blue = "#0e323d",
 }
 
 M.setup = function()
@@ -38,6 +39,8 @@ M.setup = function()
 		Normal = { bg = colors.bg, fg = colors.fg },
 		NormalFloat = { link = "Normal" },
 		NonText = { link = "Normal" },
+
+		Whitespace = { fg = colors.niagara_1 },
 
 		FloatBorder = { fg = colors.fg },
 
@@ -111,7 +114,8 @@ M.setup = function()
 		Search = { bg = colors.fg_2, fg = colors.black },
 		IncSearch = { bg = colors.fg_1, fg = colors.niagara_1 },
 
-		Visual = { bg = colors.bg_3 },
+		-- Visual = { bg = colors.bg_3 },
+		Visual = { bg = colors.dark_blue, force = true },
 
 		Question = { fg = colors.fg },
 		MoreMsg = { fg = colors.fg },
@@ -154,6 +158,19 @@ M.setup = function()
 		markdownH5 = { fg = colors.red_1 },
 		markdownBlockquote = { fg = colors.brown },
 		markdownUrl = { fg = colors.niagara, underline = config.underline },
+
+		-- Blink
+		BlinkCmpScrollBarThumb = { bg = colors.green },
+
+		--Eyeliner
+		EyelinerPrimary = { bold = true, bg = colors.yellow, fg = colors.bg },
+		EyelinerSecondary = { bg = colors.red, fg = colors.bg },
+
+		-- Mini.indentscope
+		MiniIndentscopeSymbol = { fg = colors.brown },
+
+		-- Telescope
+		TelescopeMatching = { fg = colors.bg, bg = colors.red },
 
 		-- telescope.nvim
 		-- TelescopeNormal = { },
