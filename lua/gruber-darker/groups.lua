@@ -171,7 +171,8 @@ M.setup = function()
 
 		-- Telescope
 		-- TelescopeMatching = { fg = colors.bg, bg = colors.red },
-		TelescopeMatching = { bg = colors.dark_blue },
+		-- TelescopeMatching = { bg = colors.dark_blue },
+		TelescopeMatching = { fg = colors.bg, bg = colors.red_2 },
 
 		-- LSP
 		LSPReferenceRead = { bg = colors.bg_3 },
