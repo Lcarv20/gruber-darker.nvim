@@ -170,7 +170,8 @@ M.setup = function()
 		MiniIndentscopeSymbol = { fg = colors.brown },
 
 		-- Telescope
-		TelescopeMatching = { fg = colors.bg, bg = colors.red },
+		-- TelescopeMatching = { fg = colors.bg, bg = colors.red },
+		TelescopeMatching = { bg = colors.dark_blue },
 
 		-- LSP
 		LSPReferenceRead = { bg = colors.bg_3 },
